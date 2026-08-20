@@ -21,7 +21,7 @@ jobs:
         doc_class_label: ["lk_acts", "lk_bills"]
 
     container:
-      image: ghcr.io/nuuuwan/pdf-scraper-image:latest
+      image: ghcr.io/abdrhxyii/pdf-scraper-image:latest
 
     env:
       REPO_MAIN: lk_legal_docs

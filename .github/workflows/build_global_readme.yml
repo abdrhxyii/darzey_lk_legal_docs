@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     container:
-      image: ghcr.io/nuuuwan/pdf-scraper-image:latest
+      image: ghcr.io/abdrhxyii/pdf-scraper-image:latest
 
     env:
       REPO_MAIN: lk_legal_docs
