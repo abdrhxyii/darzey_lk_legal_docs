@@ -26,7 +26,7 @@ jobs:
     env:
       REPO_MAIN: lk_legal_docs
       GITHUB_USERNAME: ${{ secrets.GIT_USER_NAME }}
-      HUGGING_FACE_USERNAME: ${{ secrets.GIT_USER_NAME }}
+      HUGGING_FACE_USERNAME: ${{ secrets.HUGGING_FACE_USERNAME }}
       HUGGING_FACE_TOKEN: ${{ secrets.HUGGING_FACE_TOKEN }}
 
     steps:
